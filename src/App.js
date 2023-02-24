@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-import Layout from './components/Layout';
+import Layout from './components/layout/Layout';
+import JobContainer from './components/job/JobContainer';
 
 function App() {
   return (
     <Layout>
-      <h1>Hello world</h1>
+      <JobContainer />
     </Layout>
   );
 }
