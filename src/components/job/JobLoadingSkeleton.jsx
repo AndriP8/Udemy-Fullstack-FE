@@ -10,7 +10,7 @@ const StyledPaper = styled(Paper)({
 
 export const JobLoadingSkeleton = () => {
   return (
-    <StyledPaper>
+    <StyledPaper data-testid="job-container-loading">
       <Grid container>
         <Grid xs={9}>
           <Skeleton variant="text" height="30px" />
